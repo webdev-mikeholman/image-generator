@@ -6,7 +6,7 @@ import {MdOutlineImageSearch} from 'react-icons/md'
 
 const SearchImage = () => {
 
-	const min = 1;
+	const min = 0;
 	const max = 3;
 	const [loading, setLoading] = useState(false)
 	const [state, setState] = useState({
